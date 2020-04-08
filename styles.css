@@ -14,7 +14,7 @@ a:first-child{
     display: none;
 }
 main{
-    background-image: url("../Lesson-9-HW/images/Rectangle-mobile.jpg");
+    background-image: url("./images/Rectangle-mobile.jpg");
     background-repeat: no-repeat;
     color:white;
     display: flex;
@@ -25,7 +25,7 @@ main *{
     margin-left: 20px;
 }
 div.logo-image{
-    background-image: url("../Lesson-9-HW/images/logo-mobile.png");
+    background-image: url("./images/logo-mobile.png");
     height: 72px;
     width: 48px;
     margin-top: 60px;
@@ -109,7 +109,7 @@ body{
     background-color: #FFFFFF;    
 }
 main{
-    background-image: url("../Lesson-9-HW/images/Rectangle-tablet.jpg");
+    background-image: url("./images/Rectangle-tablet.jpg");
     background-repeat: no-repeat;
     color:white;
     display: flex;
@@ -120,7 +120,7 @@ main *{
     margin-left: 190px;
 }
 div.logo-image{
-    background-image: url("../Lesson-9-HW/images/logo-tablet-desktop.png");
+    background-image: url("./images/logo-tablet-desktop.png");
     height:120px;
     width:80px;
     position: absolute;
@@ -169,7 +169,7 @@ body{
     background-color: #FFFFFF;   
 }
 main{
-    background-image: url("../Lesson-9-HW/images/Rectangle-desktop.jpg");
+    background-image: url("./images/Rectangle-desktop.jpg");
     background-repeat: no-repeat;
     color:white;
     display: flex;
