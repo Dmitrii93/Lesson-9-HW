@@ -13,6 +13,18 @@ body{
 a:first-child{
     display: none;
 }
+div.gradient-1{
+    background: radial-gradient(274.9% 369.39% at 78.33% -2.33%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+    width: 360px;
+    height: 623px;
+    position: absolute;
+}
+div.gradient-2{
+    background: radial-gradient(286.98% 431.33% at 100% 0%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+    width: 360px;
+    height: 623px;
+    position: absolute;
+}
 main{
     background-image: url("./images/Rectangle-mobile.jpg");
     background-repeat: no-repeat;
@@ -23,6 +35,7 @@ main{
 }
 main *{
     margin-left: 20px;
+    z-index: 9;
 }
 div.logo-image{
     background-image: url("./images/logo-mobile.png");
@@ -108,6 +121,16 @@ body{
     height: 1305px;
     background-color: #FFFFFF;    
 }
+div.gradient-1{
+    width: 958px;
+    height: 772px;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+}
+div.gradient-2{
+    width: 958px;
+    height: 772px;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+}
 main{
     background-image: url("./images/Rectangle-tablet.jpg");
     background-repeat: no-repeat;
@@ -167,6 +190,16 @@ body{
     width: 100%;
     height: 1025px;
     background-color: #FFFFFF;   
+}
+div.gradient-1{
+    width: 100%;
+    height: 772px;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+}
+div.gradient-2{
+    width: 100%;
+    height: 772px;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
 }
 main{
     background-image: url("./images/Rectangle-desktop.jpg");
