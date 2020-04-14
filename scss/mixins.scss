@@ -1,0 +1,13 @@
+$tablet: 768px;
+$desctop: 1024px;
+
+@mixin isTablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+@mixin isDesktop {
+    @media (min-width: $desctop) {
+        @content;
+    }
+}        
