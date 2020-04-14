@@ -1,7 +1,7 @@
 @import "reset";
 @import "mixins";
 body{
-    width: 360px;
+    width: 100%;
     height: 1305px;
     background-color: #FFFFFF;
     @include isTablet{
@@ -17,7 +17,7 @@ body{
 }
 div.gradient-1{
     background: radial-gradient(274.9% 369.39% at 78.33% -2.33%, rgba(0, 25, 88, 0) 0%, #000000 100%);
-    width: 360px;
+    width: 100%;
     height: 623px;
     position: absolute;
     @include isTablet{
@@ -33,7 +33,7 @@ div.gradient-1{
 }
 div.gradient-2{
     background: radial-gradient(286.98% 431.33% at 100% 0%, rgba(0, 25, 88, 0) 0%, #000000 100%);
-    width: 360px;
+    width: 100%;
     height: 623px;
     position: absolute;
     @include isTablet{
@@ -50,6 +50,7 @@ div.gradient-2{
 main{
     background-image: url("../images/Rectangle-mobile.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     color:white;
     display: flex;
     flex-direction: column;
